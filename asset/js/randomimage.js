@@ -5,6 +5,6 @@ function randomimage(){
     var img = '<img align=\"center\" src=\"';
     var randomIndex = Math.floor(Math.random() * imageURLs.length);
     img += imageURLs[randomIndex];
-    img += '\" alt=\"Cute!!\"/>';
+    img += '\" />';
     return img;
 }
