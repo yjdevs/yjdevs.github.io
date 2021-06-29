@@ -1,1 +1,1 @@
-document.write(getImageTag());
+document.write(randomimage());
